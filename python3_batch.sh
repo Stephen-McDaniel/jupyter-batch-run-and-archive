@@ -11,7 +11,6 @@ set -euo pipefail
 # /path/to/script/python3_batch.sh "/path/to/file/000_example.ipynb" &
 
 INPUT="$1"
-# INPUT="/backblaze/AI/workspace/peakcreator-python-ssh/HM_202504/000_example.ipynb"
 
 # strip .ipynb or .py suffix if present
 if [[ "$INPUT" == *.ipynb ]]; then
