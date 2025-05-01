@@ -10,6 +10,12 @@ Running Jupyter notebooks in VS Code, I want to easily start and run long-runnin
 # Run it!
 /path/to/script/python3_batch.sh "/path/to/file/Notebook1.ipynb"
 
+To run in background:
+/path/to/script/python3_batch.sh "/path/to/file/Notebook1.ipynb" &
+
+Like this:
+/path/to/script/python3_batch.sh "/path/to/file/000_example.ipynb" &
+
 # "Magic" happens
 A log directory is created, if it doesn't exist, at "/path/to/file/logs".
 
