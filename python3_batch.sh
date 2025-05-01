@@ -28,6 +28,8 @@ NOTEBOOK="${BASE}.ipynb"
 DIR="$(dirname "${INPUT}")"
 FILEBASE="$(basename "${BASE}")"
 
+cd "${DIR}"
+
 # create logs directory if it doesn't exist
 LOGDIR="${DIR}/logs"
 mkdir -p "${LOGDIR}"
