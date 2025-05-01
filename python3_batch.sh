@@ -1,4 +1,10 @@
 #!/usr/bin/env bash
+
+# MIT License
+# Stephen McDaniel @ https://PeakPython.com
+# 2025MAY01
+# From https://github.com/Stephen-McDaniel/jupyter-batch-run-and-archive
+
 set -euo pipefail
 
 # Usage:
